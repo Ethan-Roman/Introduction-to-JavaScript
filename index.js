@@ -1,25 +1,52 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 
+const votingAge = 18;
+
+function agechecker(age){
+
+    if(age>=votingAge){
+        return true
+    }else{
+        return false
+    }
+}
+agechecker(20);
+
+console.log(agechecker(20))
+
 
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
 
-
+let car = "lambo";
+let isCool = "Yes!";
+if (isCool === "Yes!") {
+    car = "Awesome!";
+} else {
+    car = "not awesome"
+}
+console.log(car)
 
 
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
 
+    let year = "1999"
+
+    console.log(year)
 
 
 
 
 //Task d: Write a function to multiply a*b 
 
-
+    function multiply(a, b){
+        return a * b;
+    }
+        console.log(multiply(3,4))
 
 
 
@@ -27,13 +54,17 @@
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
 
-
+    function dogYear(param1 , param2){
+        return param1 * param2
+    }
+        console.log(dogYear(20,7))
 
 
 
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
-//takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
+//takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) 
+// and returns the number of pounds of raw food to feed in a day.
 
 //feeding requirements
 // adult dogs at least 1 year 
@@ -47,10 +78,13 @@
 // 4 - 7 months 5% of their body weight 
 // 7 - 12 months 4% of their body weight
 
-// when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
+// when you are finished invoke your function with the weight of 15 lbs and the age of 1 year -
+//  if your calculations are correct your result should be 0.44999999999999996
   
-
-
+    function dogFeeder(param1 , param2){
+        return param1 * param2
+    }
+        console.log(dogFeeder(15,.03))
 
 
 /************************************************************** Task 4 **************************************************************/
@@ -60,7 +94,9 @@
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
 
-  
+    function RPS(){
+
+    }
   
 
 /************************************************************** Task 5 **************************************************************/
